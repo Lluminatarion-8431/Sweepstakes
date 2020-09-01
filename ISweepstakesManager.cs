@@ -8,6 +8,15 @@ namespace SweepstakesProj
 {
     class ISweepstakesManager
     {
+        //Member Variables
+
+
+
+        //Constructor
+
+
+
+        //Member Methods
       public void InsertSweepstakes(Sweepstakes sweepstakes)
       {
 

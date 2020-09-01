@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProj
 {
-    class MarketingFirm : ISweepstakesManager
+    class Simulation
     {
         //Member Variables
-        private ISweepstakesManager _manager;
 
 
         //Constructor
-        public MarketingFirm(ISweepstakesManager manager)
+        public void CreateMarketingFirmWithManager()
         {
 
         }
 
         //Member Methods
-        public void CreateSweepstakes()
-        {
 
-        }
+
     }
 }

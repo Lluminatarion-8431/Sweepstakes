@@ -10,8 +10,14 @@ namespace SweepstakesProj
     {
         //Member Variables
 
+
         //Constructor
 
+
         //Member Methods
+        static public string GetUserInputFor(string prompt)
+        {
+            return null;
+        }
     }
 }
