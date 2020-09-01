@@ -23,14 +23,7 @@ namespace SweepstakesProj
         //Member Methods
 	    public void RegisterContestant(Contestant contestant)
         {
-            contestant.FirstName = UserInterface.ContestantFirstName();
-            UserInterface.ContestantFirstName();
-            contestant.LastName = UserInterface.ContestantLastName();
-            UI.ContestantLastName();
-            contestant.EmailAddress = UI.ContestantEmail();
-            UI.ContestantEmail();
-            contestant.RegistrationNumber = UI.ContestantRegistrationNumber();
-            UI.ContestantRegistrationNumber();
+            
         }
 	    public Contestant PickWinner()
         {
