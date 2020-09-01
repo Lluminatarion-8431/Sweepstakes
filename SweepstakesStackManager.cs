@@ -12,7 +12,7 @@ namespace SweepstakesProj
          private Stack<Sweepstakes> stack;
 
         //Constructor
-        Stack<Sweepstakes> stack = new Stack<Sweepstakes>();
+        
 
 
 

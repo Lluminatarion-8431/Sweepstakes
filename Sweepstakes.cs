@@ -8,19 +8,28 @@ namespace SweepstakesProj
 {
     class Sweepstakes
     {
-     	Sweepstakes(string name)
+        //Member Variables
+        private Dictionary<int, Contestant> constestants;
+        private string name;
+
+        public string Name;
+
+        //Constructor
+        public Sweepstakes(string name)
         {
 
         }
-	    void RegisterContestant(Contestant contestant)
+
+        //Member Methods
+	    public void RegisterContestant(Contestant contestant)
         {
 
         }
-	    Contestant PickWinner()
+	    public Contestant PickWinner()
         {
             return null;
         }
-	    void PrintContestantInfo(Contestant contestant)
+	    public void PrintContestantInfo(Contestant contestant)
         {
 
         }
