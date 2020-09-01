@@ -8,5 +8,10 @@ namespace SweepstakesProj
 {
     class UserInterface
     {
+        //Member Variables
+
+        //Constructor
+
+        //Member Methods
     }
 }

@@ -8,5 +8,10 @@ namespace SweepstakesProj
 {
     class Contestant
     {
+        //Member Variables
+
+        //Constructor
+
+        //Member Methods
     }
 }

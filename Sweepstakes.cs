@@ -8,5 +8,22 @@ namespace SweepstakesProj
 {
     class Sweepstakes
     {
+     	Sweepstakes(string name)
+        {
+
+        }
+	    void RegisterContestant(Contestant contestant)
+        {
+
+        }
+	    Contestant PickWinner()
+        {
+            return null;
+        }
+	    void PrintContestantInfo(Contestant contestant)
+        {
+
+        }
+
     }
 }

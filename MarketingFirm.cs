@@ -8,5 +8,10 @@ namespace SweepstakesProj
 {
     class MarketingFirm
     {
+        //Member Variables
+
+        //Constructor
+
+        //Member Methods
     }
 }
