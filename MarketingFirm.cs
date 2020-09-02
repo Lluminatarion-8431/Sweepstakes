@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProj
 {
-    class MarketingFirm : ISweepstakesManager
+    class MarketingFirm
     {
         //Member Variables
         private ISweepstakesManager _manager;
