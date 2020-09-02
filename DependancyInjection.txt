@@ -1,0 +1,1 @@
+Dependancy injection is being used with ISweepstakesManager and being passed into the the MarketingFirm constructor so the user has the ability to choose the type of manager it wants to use.

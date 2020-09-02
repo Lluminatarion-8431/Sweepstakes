@@ -8,8 +8,8 @@ namespace SweepstakesProj
 {
     public interface IAccount
     {
-        void Register(IMessage message);
-        void Unregister(IMessage message);
-        void Notify();
+        //void Register(IMessage message);
+        //void Unregister(IMessage message);
+        //void Notify();
     }
 }

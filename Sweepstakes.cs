@@ -52,6 +52,19 @@ namespace SweepstakesProj
             Console.WriteLine(contestant.EmailAddress);
             Console.WriteLine(contestant.RegistrationNumber);
         }
+        //public void Register(IMessage observer)
+        //{
+        //    NotifiedContestants.Add(observer);
+        //}
+        //public void Unregister(IMessage observer)
+        //{
+        //    NotifiedContestants.Remove(observer);
+        //}
+
+        //public void Notify()
+        //{
+            
+        //}
 
     }
 }

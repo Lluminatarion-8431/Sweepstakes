@@ -28,6 +28,5 @@ namespace SweepstakesProj
         public string EmailAddress { get { return emailAddress; } set { emailAddress = value; } }
         public int RegistrationNumber { get { return registrationNumber; } set { registrationNumber = value; } }
 
-
     }
 }

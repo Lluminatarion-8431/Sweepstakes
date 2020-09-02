@@ -8,6 +8,6 @@ namespace SweepstakesProj
 {
     public interface IMessage
     {
-        void Update(Sweepstakes sweepstake);
+        //void Update(Sweepstakes sweepstake);
     }
 }
