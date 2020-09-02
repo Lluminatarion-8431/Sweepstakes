@@ -19,6 +19,12 @@ namespace SweepstakesProj
         }
 
         //Member Methods
+        public static string AddSweepstakesName()
+        {
+            Console.WriteLine("What should the sweepstakes be called?");
+            string sweepstakesName = Console.ReadLine();
+            return sweepstakesName;
+        }
         public static string ContestantFirstName()
         {
             Console.WriteLine("Enter your first name here: ");

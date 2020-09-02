@@ -10,18 +10,19 @@ namespace SweepstakesProj
     {
         //Member Variables
         private ISweepstakesManager _manager;
-
+        Sweepstakes sweepstakes;
 
         //Constructor
         public MarketingFirm(ISweepstakesManager manager)
         {
-            this._manager = _manager;
+            _manager = manager;
         }
 
         //Member Methods
         public void CreateSweepstakes()
         {
-            Sweepstakes sweepstakes = new Sweepstakes();
+            string sweepstakesName = UserInterface.AddSweepstakesName();
+            sweepstakes = new Sweepstakes(sweepstakesName);
             _manager.InsertSweepstakes(sweepstakes);
         }
 

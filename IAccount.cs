@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProj
 {
-    interface ISweepstakesManager
+    public interface IAccount
     {
-        void InsertSweepstakes(Sweepstakes sweepstakes);
-
-        Sweepstakes GetSweepstakes();
+        void Register(IMessage message);
+        void Unregister(IMessage message);
+        void Notify();
     }
 }
